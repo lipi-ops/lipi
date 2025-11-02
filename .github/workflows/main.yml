@@ -8,7 +8,7 @@ on:
 jobs:
   terraform:
     name: Terraform Apply
-    runs-on: [self-hosted, lipi-runner]
+    runs-on: lipi-runner
 
     steps:
       - name: Checkout code
